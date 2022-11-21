@@ -1,24 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Header } from "./components/header";
+import { FifthPage } from "./Pages/FifthPage";
+import { FirstPage } from "./Pages/FirstPage";
+import { LastPage } from "./Pages/LastPage";
+import { QuarterPage } from "./Pages/QuarterPage";
+import { SecondPage } from "./Pages/SecondPage";
+import { ThirdPage } from "./Pages/ThirdPage";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FirstPage/>
+      <SecondPage/>
+      <ThirdPage/>
+      <QuarterPage/>
+      <FifthPage/>
+      <LastPage/>
     </div>
   );
 }
